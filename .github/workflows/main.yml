@@ -27,4 +27,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/Trabajo_m4-Deploy:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/trabajo_m4-deploy:latest
