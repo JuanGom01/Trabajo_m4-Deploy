@@ -9,7 +9,7 @@ const config = {
     type: "postgres",
     database: "trabajo_m4",
     host: "dpg-cq5cmreehbks73bn4jvg-a",
-    port: parseInt(process.env.DB_port, 10),
+    port: 5432,
     username: "postgresdb",
     password: "SvbfJNkZiD49KLFZPKySMvN7Km0RsSnn",
     synchronize: true,
