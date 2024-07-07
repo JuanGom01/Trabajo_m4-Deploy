@@ -7,11 +7,11 @@ dotenvConfig({ path: ".env.development" });
 /*process.env.DB_host*/
 const config = {
     type: "postgres",
-    database: process.env.DB_database,
-    host: "postgresdb",
+    database: "trabajo_m4",
+    host: "dpg-cq5cmreehbks73bn4jvg-a",
     port: parseInt(process.env.DB_port, 10),
-    username: process.env.DB_username,
-    password: process.env.DB_password,
+    username: "postgresdb",
+    password: "SvbfJNkZiD49KLFZPKySMvN7Km0RsSnn",
     synchronize: true,
     logging: false,
     dropSchema: true,
